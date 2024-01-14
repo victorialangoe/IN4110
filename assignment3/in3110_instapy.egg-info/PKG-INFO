@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: in3110-instapy
+Version: 1.0.0
+Summary: Turns a image of choice into a dramatic grayscale or nostalgic sepia image
+License: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: pillow
+Requires-Dist: line-profiler

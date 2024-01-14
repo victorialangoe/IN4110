@@ -1,0 +1,11 @@
+Dimensions for test/rain.jpg: 600 x 400
+
+Reference (pure Python) filter time color2gray: 0.677s (calls=3)
+Timing: numpy color2gray: 0.003s (speedup=193.89x)
+Timing: numba color2gray: 0.153s (speedup=4.43x)
+Timing: cython color2gray: 0.068s (speedup=9.89x)
+
+Reference (pure Python) filter time color2sepia: 1.683s (calls=3)
+Timing: numpy color2sepia: 0.008s (speedup=210.00x)
+Timing: numba color2sepia: 0.117s (speedup=14.37x)
+Timing: cython color2sepia: 0.425s (speedup=3.96x)

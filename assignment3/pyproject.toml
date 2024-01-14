@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    "setuptools>=61",
+    "cython>=3",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "1.0.0"
+requires-python = ">=3.8"
+license = {text = "MIT License"}
+name = "in3110_instapy"
+description = "Turns a image of choice into a dramatic grayscale or nostalgic sepia image"
+readme = "README.md"
+dependencies = [ "numpy", "numba", "pillow", "line-profiler"]
+
+
+[project.scripts]
+instapy = "in3110_instapy.cli:main" 
+
